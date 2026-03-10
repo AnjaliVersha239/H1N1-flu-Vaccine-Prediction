@@ -11,11 +11,11 @@ Vaccination plays a critical role in preventing infectious diseases. However, ma
 
 This project aims to:
 
-Analyze survey data related to vaccination behavior.
+- Analyze survey data related to vaccination behavior.
 
-Identify key factors influencing vaccine uptake.
+- Identify key factors influencing vaccine uptake.
 
-Build predictive models to determine whether a person is likely to take the vaccine.
+- Build predictive models to determine whether a person is likely to take the vaccine.
 
 # Dataset Description
 
