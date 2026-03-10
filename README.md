@@ -206,7 +206,7 @@ Vaccine-Prediction-Project
 
 # How to Run the Project
 # 1. Clone the Repository
-git clone https://github.com/AnjaliVersha239/vaccine-prediction-project.git
+git clone https://github.com/AnjaliVersha239/H1N1-flu-Vaccine-Prediction
 # 2. Install Required Libraries
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost
 # 3. Run the Notebook
