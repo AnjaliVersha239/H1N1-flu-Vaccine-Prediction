@@ -19,21 +19,21 @@ This project aims to:
 
 # Dataset Description
 
-The dataset contains survey responses regarding:
+- The dataset contains survey responses regarding:
 
-Demographic information
+- Demographic information
 
-Health-related behaviors
+- Health-related behaviors
 
-Risk perception
+- Risk perception
 
-Opinions about vaccines
+- Opinions about vaccines
 
-Healthcare accessibility
+- Healthcare accessibility
 
-Vaccination status
+- Vaccination status
 
-# Target Variables
+#  Target Variables
 
 h1n1_vaccine – Whether the respondent took the H1N1 vaccine
 
