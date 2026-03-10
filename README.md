@@ -45,65 +45,65 @@ The dataset includes multiple types of features:
 
 # 1. Demographic Features
 
-Age group
+- Age group
 
-Education
+- Education
 
-Income level
+- Income level
 
-Marital status
+- Marital status
 
-Employment status
+- Employment status
 
 # 2. Behavioral Features
 
-Use of preventive measures
+- Use of preventive measures
 
-Doctor recommendations
+- Doctor recommendations
 
-Health insurance status
+- Health insurance status
 
 # 3. Opinion-Based Features
 
-Concern about H1N1
+- Concern about H1N1
 
-Perceived vaccine effectiveness
+- Perceived vaccine effectiveness
 
-Perceived risk of illness
+- Perceived risk of illness
 
 # 4. Healthcare Access
 
-Doctor visits
+- Doctor visits
 
-Access to healthcare services
+- Access to healthcare services
 
 # Data Preprocessing
 
-Several preprocessing steps were performed to prepare the data for modeling:
+- Several preprocessing steps were performed to prepare the data for modeling:
 
-Handling missing values
+- Handling missing values
 
-Encoding categorical variables
+- Encoding categorical variables
 
-Feature scaling where necessary
+- Feature scaling where necessary
 
-Exploratory Data Analysis (EDA)
+- Exploratory Data Analysis (EDA)
 
-Train-test data splitting
+- Train-test data splitting
 
 # Missing Value Analysis
 
-Some categorical variables had high missing rates such as:
+- Some categorical variables had high missing rates such as:
 
-employment_industry
+- employment_industry
 
-employment_occupation
+- employment_occupation
 
-income_poverty
+- income_poverty
 
-rent_or_own
+- rent_or_own
 
-marital_status
+- marital_status
 
 Appropriate strategies were used to handle these missing values.
 
@@ -113,23 +113,23 @@ EDA was performed to understand relationships between features and vaccination b
 
 Key insights include:
 
-Individuals with higher concern about H1N1 were significantly more likely to take the vaccine.
+- Individuals with higher concern about H1N1 were significantly more likely to take the vaccine.
 
-Doctor recommendations strongly influenced vaccine uptake.
+- Doctor recommendations strongly influenced vaccine uptake.
 
-Higher perceived vaccine effectiveness increased the likelihood of vaccination.
+- Higher perceived vaccine effectiveness increased the likelihood of vaccination.
 
-Education level and income also showed moderate correlations with vaccination decisions.
+- Education level and income also showed moderate correlations with vaccination decisions.
 
 Visualizations were used to analyze:
 
-Vaccine uptake by concern level
+- Vaccine uptake by concern level
 
-Vaccine uptake by opinion scores
+- Vaccine uptake by opinion scores
 
-Demographic patterns
+- Demographic patterns
 
-Distribution of key features
+- Distribution of key features
 
 # Machine Learning Models
 
@@ -137,15 +137,15 @@ Multiple machine learning models were implemented and compared.
 
 # Models Used
 
-Logistic Regression
+- Logistic Regression
 
-Decision Tree
+- Decision Tree
 
-Random Forest
+- Random Forest
 
-XGBoost
+- XGBoost
 
-Multi-Layer Perceptron (Neural Network)
+- Multi-Layer Perceptron (Neural Network)
 
 Each model was evaluated using consistent preprocessing and train-test splits to ensure fair comparison.
 
@@ -153,17 +153,17 @@ Each model was evaluated using consistent preprocessing and train-test splits to
 
 The models were evaluated using:
 
-Accuracy
+- Accuracy
 
-Precision
+- Precision
 
-Recall
+- Recall
 
-F1 Score
+- F1 Score
 
-ROC-AUC Score
+- ROC-AUC Score
 
-Confusion Matrix
+- Confusion Matrix
 
 These metrics help assess both classification performance and model reliability.
 
@@ -171,11 +171,11 @@ These metrics help assess both classification performance and model reliability.
 
 Among all models tested:
 
-XGBoost and Random Forest delivered the best performance.
+- XGBoost and Random Forest delivered the best performance.
 
-Ensemble methods captured complex feature interactions better than simple models.
+- Ensemble methods captured complex feature interactions better than simple models.
 
-Logistic Regression provided strong baseline performance with good interpretability.
+- Logistic Regression provided strong baseline performance with good interpretability.
 
 The best-performing model showed strong predictive capability in identifying individuals likely to receive vaccines.
 
@@ -188,21 +188,21 @@ Vaccine-Prediction-Project
 
 # Technologies Used
 
-Python
+- Python
 
-Pandas
+- Pandas
 
-NumPy
+- NumPy
 
-Matplotlib
+- Matplotlib
 
-Seaborn
+- Seaborn
 
-Scikit-learn
+- Scikit-learn
 
-XGBoost
+- XGBoost
 
-Jupyter Notebook
+- Jupyter Notebook
 
 # How to Run the Project
 # 1. Clone the Repository
@@ -217,22 +217,22 @@ jupyter notebook PRCP-1014-VaccinePred_final.ipynb
 
 # Key Takeaways
 
-Public perception and concern about diseases significantly influence vaccination behavior.
+- Public perception and concern about diseases significantly influence vaccination behavior.
 
-Doctor recommendations play a crucial role in vaccine acceptance.
+- Doctor recommendations play a crucial role in vaccine acceptance.
 
-Machine learning models can effectively predict vaccination decisions using survey data.
+- Machine learning models can effectively predict vaccination decisions using survey data.
 
 # Future Improvements
 
 Possible improvements for the project include:
 
-Hyperparameter optimization
+- Hyperparameter optimization
 
-Feature engineering
+- Feature engineering
 
-Model explainability using SHAP or LIME
+- Model explainability using SHAP or LIME
 
-Deployment as a web application
+- Deployment as a web application
 
-Real-time vaccination prediction dashboard
+- Real-time vaccination prediction dashboard
